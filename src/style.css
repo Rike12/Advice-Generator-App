@@ -114,3 +114,18 @@ main {
     transform: rotate(360deg);
   }
 }
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+    main {
+        padding: 2.6rem 1.5rem;
+    }
+
+    .divider-mobile {
+        display: block;
+        margin-bottom: 0.9rem;
+    }
+
+    .divider-desktop {
+        display: none;
+    }
+}
