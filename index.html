@@ -4,10 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Advice Generator App">
-    
+    <!-----FAVICON----->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+    <!-----GOOGLE FONT----->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <!------CSS---->
+  <link rel="stylesheet" href="src/style.css">
     <title>Advice Generator App</title>
 </head>
 <body>
-    
+ <main>
+    <!----Advice ID-->
+    <h1 class="title">Advice #<span class="advice-id"></span></h1>
+    <div class="quote"></div>
+    <picture class="divider divider-desktop">
+      <img src="assets/images/pattern-divider-desktop.svg" alt="Divider" />
+
+    </picture>
+    <picture class="divider divider-mobile">
+        <img src="assets/images/pattern-divider-mobile.svg" alt="Divider" />
+    </picture>
+      <div class="lds-dual-ring"></div>
+      <picture class="cta">
+        <img src="assets/images/icon-dice.svg" alt="Icon Dice" />
+      </picture>
+      <!----JAVASCRIPT-->
+      <script src="src/index.js"></script>
+ </main>   
 </body>
 </html>
